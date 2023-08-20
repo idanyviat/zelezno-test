@@ -1,0 +1,27 @@
+@import './variables.scss';
+@import './mixins.scss';
+@import './common/container.scss';
+
+html,
+body,
+#app {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    text-align: center;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+.body {
+    height: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}

@@ -1,0 +1,13 @@
+.container {
+    display: flex;
+    margin: 0 auto;
+    min-height: 100%;
+
+    @include tablet {
+        min-width: 640px;
+    }
+
+    @include desktop {
+        min-width: 1024px;
+    }
+}
